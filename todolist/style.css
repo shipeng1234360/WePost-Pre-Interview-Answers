@@ -1,0 +1,85 @@
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  #header{
+    margin:auto;
+    width:50%;
+    padding:15px;
+    background-color: rgb(194, 194, 194);
+  }
+
+  #content{
+    margin:auto;
+    padding:15px;
+    width:50%;
+    background-color: rgb(228, 228, 228);
+  }
+
+  #new-task {
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #dedede;
+    border: black px;
+    width: 70%;
+    margin-right: 10px;
+  }
+
+  button {
+    padding: 8px 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #1a931a;
+    color: #fff;
+    cursor: pointer;
+  }
+
+ #btn_cancel {
+    background-color: #ff2f00;
+  }
+
+  button:hover {
+    background-color: #3e8e41;
+  }
+
+  li {
+    font-size: 24px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  li.completed {
+    color: #aaa;
+  }
+
+
+  span {
+    color: #ffffff;
+    width:25px;
+    height:25px;
+    cursor: pointer;
+    background-color: red;
+    border:1px black solid;
+    border-radius:50%;
+    margin-left: auto;
+  }
+
+table{
+    border-spacing: 0px;
+    border-collapse: collapse;
+    width:100%;
+    text-align: center;
+}
+
+table td, table th, table tr{
+    border:1px solid black;
+    width:33%;
+  }
+
+  table th{
+    background-color:rgb(255, 255, 255)
+  }
